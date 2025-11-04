@@ -1,0 +1,26 @@
+:root {
+  /* Primary */
+  --primary: #00B8D4;
+  --on-primary: #ffffff;
+  --primary-container: #CFF6FF;
+  --on-primary-container: #002C33;
+
+  /* Secondary */
+  --secondary: #D400B8;
+  --on-secondary: #ffffff;
+  --secondary-container: #FFD6F4;
+  --on-secondary-container: #3A0031;
+
+  /* Tertiary */
+  --tertiary: #B8D400;
+  --on-tertiary: #1F2600;
+  --tertiary-container: #E7F6A0;
+  --on-tertiary-container: #151D00;
+
+  /* Neutral */
+  --background: #FAFAFA;
+  --on-background: #1A1A1A;
+  --surface: #FFFFFF;
+  --on-surface: #1A1A1A;
+  --outline: #B0B0B0;
+}

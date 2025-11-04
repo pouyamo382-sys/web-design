@@ -1,0 +1,156 @@
+/* Buttons */
+.btn-primary {
+  background: var(--primary);
+  color: var(--on-primary);
+  padding: 15px 36px;
+  border-radius: 50px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.btn-primary:hover {
+  background: var(--secondary);
+  color: var(--on-secondary);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Form Inputs */
+input[type="text"],
+input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 16px 20px;
+  margin: 10px 0 20px;
+  border-radius: 15px;
+  border: 1px solid var(--outline);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  resize: vertical;
+  background-color: var(--background);
+  color: var(--on-background);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+.contact-form textarea:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 15px rgba(0,184,212,0.3);
+  outline: none;
+}
+
+/* Contact Form Labels */
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  display: block;
+  color: var(--on-background);
+}
+
+/* Contact Form Container */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Contact Form Button */
+.contact-form button.btn-primary {
+  width: 220px;
+  margin: 0 auto;
+  display: block;
+  padding: 16px 0;
+  border-radius: 50px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+}
+
+.contact-form button.btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+
+/* Contact Form Wrapper (کادر فرم) */
+.contact-form-wrapper {
+  background-color: var(--surface);
+  padding: 60px 50px;
+  border-radius: 25px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+  max-width: 700px;
+  width: 100%;
+  text-align: right;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 25px 60px rgba(0,0,0,0.2);
+}
+
+.contact-form-wrapper h2 {
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.contact-form-section {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center; /* وسط چین افقی */
+  align-items: center;     /* وسط چین عمودی در صورت نیاز */
+}
+.contact-form-wrapper p {
+  color: var(--on-surface);
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Product Cards */
+.product-card {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  border-radius: 18px;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid var(--outline);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 35px rgba(0,0,0,0.2);
+}
+
+.product-card h3 {
+  margin: 12px 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.product-card p {
+  font-size: 1rem;
+  margin-bottom: 18px;
+}
+
+.product-card img {
+  border-radius: 15px;
+  margin-bottom: 18px;
+  transition: transform 0.3s ease;
+}
+
+.product-card img:hover {
+  transform: scale(1.07);
+}
